@@ -1,0 +1,49 @@
+{
+    "nodeAddr":     "rpc-msc.mindchain.info",
+    "gethPort":     8545,
+    "startBlock":   0,
+    "quiet":        true,
+    "syncAll":      true,
+    "patch":        true,
+    "patchBlocks":  100,
+    "bulkSize":     100,
+    "rewards": {
+        "estimateUncle": 0.033,
+        "enableECIP1017": false,
+        "genesisAlloc": {
+            "total": 71000000,
+            "Liquidity": 17750000,
+            "Private": 17750000,
+            "Technical Team": 7100000,
+            "Marketing & PR": 4970000,
+            "Development": 7100000,
+            "Exchange Listing": 3550000,
+            "Founder team":12780000 
+        },
+        "blocks": [
+            { "start":      1, "reward": 9e+18, "uncle": 0.90625 },
+            { "start": 600000, "reward": 5e+18, "uncle": 0.90625 }
+        ]
+    },
+    "settings": {
+        "symbol": "MIND",
+        "name": "MIND Smart Chain ",
+        "title": "MIND smart chain Block Explorer",
+        "author": "MIND Foundation",
+        "contact": "",
+        "about": "",
+        "rss":"",
+        "reddit": "https://www.reddit.com/user/mindchaincoin",
+        "twitter": "https://twitter.com/MindChain1",
+        "linkedin": "https://www.linkedin.com/in/mindchaincoin",
+        "github": "https://github.com/mindchaincoin",
+        "logo": "https://i.postimg.cc/gkhvNbRD/received-1347500712674400.webp",
+        "customCss": "green-haze.min.css",
+        "copyright": "2022,MIND auth.",
+        "useEthFiat": false,
+         "miners": {
+            "0xf15840d237288a9a116a122f4935c836203c9b46": "Us.MIND.AUTH",
+            "0x729c28ca887813329844c4248f0c105b6aefaa67": "CNS.MNC"
+         }
+    }
+}
