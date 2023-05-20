@@ -1,5 +1,6 @@
 {
-    "nodeAddr":     "rpc-msc.mindchain.info",
+    "nodeAddr":     "198.177.124.251",
+
     "gethPort":     8545,
     "startBlock":   0,
     "quiet":        true,
