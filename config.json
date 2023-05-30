@@ -1,5 +1,5 @@
 {
-    "nodeAddr":     "198.177.124.251",
+    "nodeAddr":     "mainnet-rpc.metaviralscan.com",
 
     "gethPort":     8545,
     "startBlock":   0,
